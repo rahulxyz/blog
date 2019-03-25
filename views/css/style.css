@@ -1,0 +1,15 @@
+#content{
+    
+}
+
+#content #middle-pane{
+    background-color: #d3d3d3
+}
+
+#landing-image{
+    background-image: url("../assets/img/landing-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;
+}
