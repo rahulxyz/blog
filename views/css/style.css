@@ -1,15 +1,8 @@
-#content{
-    
+#main-content{
+   width: 100%; 
 }
 
-#content #middle-pane{
-    background-color: #d3d3d3
+#main-content #middle-pane{
+    background-color: #f8f8f8
 }
 
-#landing-image{
-    background-image: url("../assets/img/landing-image.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-}

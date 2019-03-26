@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Hello, world!</title>
+    <title>Welcome</title>
 </head>
 
-<body>
+<body id="home">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-2 active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Posts</a>
@@ -39,29 +39,82 @@
         </div>
     </nav>
 
-    <div class="container-fluid" id="content">
-        <div class="row">
-            <img src="./assets/img/landing-image-2.jpg" class="img-fluid" alt="Responsive image">
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6" id="middle-pane">
-                <p>middle</p>
+    <section id='main-content'>
+        <div class="container-fluid">
+            <div class="row">
+                <img src="./assets/img/landing-image-2.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-3"></div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 py-5 px-5" id="middle-pane">
+                    <h1>Lorem Ipsum?</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem a nisi vitae qui magni doloribus
+                        quod, tempore fugiat. Dolores delectus molestias tempora inventore temporibus sunt! Vero nisi
+                        distinctio sequi esse.
+                        Sequi illo libero quidem incidunt illum facilis provident omnis? Deleniti dignissimos nobis
+                        reiciendis laboriosam sapiente ex eius hic cumque optio odit ad iure fugit quam, doloribus
+                        aliquid exercitationem vitae quibusdam.
+                        Enim voluptate velit omnis, nostrum fugiat necessitatibus recusandae doloribus suscipit
+                        reiciendis impedit corporis incidunt magnam atque accusantium pariatur est. Veniam, labore fugit
+                        voluptas est eaque enim minus tempora soluta aut!
+                        Ad, odit mollitia! Laboriosam quae sit nesciunt modi, accusamus itaque non asperiores odit
+                        dolores distinctio molestias blanditiis quod neque odio, sapiente eligendi corporis suscipit
+                        amet? Vel asperiores nostrum illo autem.
+                        Tenetur quidem rerum officia tempora? Sint esse ex cupiditate tempore. Illum modi repudiandae
+                        ipsum eligendi alias quod praesentium magnam architecto soluta. Odio deserunt quo commodi fuga,
+                        voluptas accusantium ea earum.
+                        Eum velit dicta ducimus expedita cumque a asperiores quos blanditiis voluptatibus et fugiat
+                        nobis, odit perspiciatis facere! Autem pariatur at eius consequuntur totam numquam dolor
+                        distinctio sed et! Ipsam, porro.
+                        Aperiam, eaque modi! Fugiat et non, quos eius voluptatibus magni, nisi hic eos tenetur quidem
+                        modi labore doloribus pariatur corrupti est repellat. Voluptas aut et illo dicta nobis aliquid
+                        quaerat.
+                        Rerum vitae quibusdam doloribus, accusamus at neque quisquam. Harum ipsa natus at illum, beatae
+                        accusantium explicabo, eveniet molestiae laborum id nihil error sequi nobis debitis sapiente
+                        mollitia? Explicabo, veritatis velit?
+                        Suscipit quod laborum laudantium repellat ex mollitia ad ullam adipisci excepturi, reprehenderit
+                        amet soluta omnis deserunt voluptas. A ipsum error cumque rerum nostrum blanditiis eum maiores
+                        veniam dolorum. Dolor, architecto.
+                        Nemo, aut dolor. Unde ex itaque exercitationem alias cupiditate tenetur pariatur? Culpa
+                        molestiae sapiente similique distinctio ipsam? Facilis illum ea dicta nesciunt magni maiores
+                        eius ab, voluptatem dolore? Ipsa, fugit?</p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="py-5 bg-dark text-white ">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 ml-auto">
+                    <p class="lead">
+                        Copyright &copy; <span id="year"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $("#year").text(new Date().getFullYear());
+    </script>
 </body>
 
 </html>
