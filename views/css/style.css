@@ -1,8 +1,32 @@
-#main-content{
-   width: 100%; 
+.navbar{
+    z-index: 2;
 }
 
-#main-content #middle-pane{
+#main-content{
+   background: url('../assets/img/landing-image-2.jpg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-attachment: fixed;
+   margin-top: -56px;
+   min-height: 384px;
+}
+
+#main-content #overlay{
+    height: 384px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#article-content{
+    position: relative;
+}
+
+#article-content #middle-pane{
     background-color: #f8f8f8
 }
+
+#article-content #author-content{
+    height: 300px;
+}
+
 
