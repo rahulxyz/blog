@@ -14,14 +14,14 @@
 </head>
 
 <body id="home">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <a class="navbar-brand" href="#">Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse navbar-list" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-2 active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
@@ -33,19 +33,21 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="./html/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <section id='main-content'>
-        <div class="container-fluid">
+        <div id="overlay"></div>
+    </section>
+
+    <section id="article-content">
+        <div class="container">
+
             <div class="row">
-                <img src="./assets/img/landing-image-2.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
+                <!-- <div class="col-lg-2"></div> -->
                 <div class="col-lg-8 py-5 px-5" id="middle-pane">
                     <h1>Lorem Ipsum?</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem a nisi vitae qui magni doloribus
@@ -79,10 +81,21 @@
                         molestiae sapiente similique distinctio ipsam? Facilis illum ea dicta nesciunt magni maiores
                         eius ab, voluptatem dolore? Ipsa, fugit?</p>
                 </div>
-                <div class="col-lg-2"></div>
+                <div class="col-lg-1"></div>
+                <div class="card col-lg-3 mt-5 border-0 shadow" id="author-content">
+                    <div class="card-body">
+                        <h5 class="card-title">Author</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Joe McKargy</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quas
+                            fugiat nisi. Ipsa, non!</p>
+                        <a href="#" class="card-link">Date</a>
+                        <a href="#" class="card-link">dribble</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- FOOTER -->
     <footer id="main-footer" class="py-5 bg-dark text-white ">
@@ -90,7 +103,7 @@
             <div class="row text-center">
                 <div class="col-md-6 ml-auto">
                     <p class="lead">
-                        Copyright &copy; <span id="year"></span>
+                        Copyright &copy; <span id="year"></span> Rahulxyz, All rights Reserved
                     </p>
                 </div>
             </div>
