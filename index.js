@@ -8,6 +8,8 @@ const appRoutes = require('./routes/routes'); // Imports routes for the products
 // initialize our express app
 const app = express();
 const port = process.env.PORT || 5000;
+
+app.use(express.static('views'));
 app.use('/', appRoutes);
 
 initDb(function (err) {

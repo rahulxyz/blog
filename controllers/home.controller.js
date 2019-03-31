@@ -1,15 +1,7 @@
 const assert = require('assert');
 const getDb = require("../db_connection").getDb;
-
-
-
+const path = require('path');
 
 exports.home = function (req, res) {
-    const db = getDb();
-    db.collection('userDetails').find({}).toArray(function (err, docs) {
-        assert.equal(err, null);
-        //console.log("Found the following records");
-        res.send(docs);
-    });
-    //res.send({ 'msg': 'Welcome to HOME controller!' });
+    res.sendFile(path.join(__dirname, "../views/index.html"));
 };
